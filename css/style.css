@@ -1,0 +1,265 @@
+*,html,body
+{
+    margin: 0; padding: 0;
+    scroll-behavior: smooth;
+}
+body{ overflow-x: hidden; height: 2000px;}
+
+.secondary{
+        background-color: rgba(1,1,1,0.2);
+}
+
+
+.container .logo img{
+    width: 100px;height: 100px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+
+header{
+    height: 18vh;width: 100%;
+    line-height: 18vh;
+    position: fixed;
+    z-index: 1;
+}
+
+header nav{
+    float: right;
+}
+header nav ul li a{
+    padding-right: 30px;
+    font-size: 1.7rem;
+    color: #fff; font-weight: bold;
+     transition:all .5s ease-in-out;
+}
+
+header nav ul li a:hover,header nav ul li a:focus{
+    text-decoration: none;
+}
+
+.img1 {
+    background-image: url("../image/slider1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2 {
+    background-image: url("../image/slider2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider ul li{
+    width: 100%;
+    height: 600px;
+}
+.white{ color: #fff; }
+.slider h2{
+    margin-top: 210px;
+    font-weight: bold;
+}
+
+.slider .btn{ padding: 10px 25px; }
+.gaps{ margin-top: 60px; }
+.gapping{ margin-top: 60px; }
+.our-services{ margin-top: 50px; }
+.our-services .fa{ font-size: 20px; }
+.our-services h2,.our-services h4{ font-weight: bold; }
+.portofolio img{
+    width: 280px; height: 270px;
+}
+.portofolio{
+    margin-top: 60px;
+    background-color: rgb(61, 58, 58);
+    padding-top: 50px; padding-bottom: 120px;
+}
+
+.portofolio p{
+    margin-bottom: 80px; color: white;
+}
+.portofolio h2{
+    color: white; font-weight: bold;
+}
+.portofolio .portfolio-nav{
+    margin-top: 47px;
+}
+.portofolio .portfolio-nav a{
+    margin: 0 12px 0 12px;
+    padding: 7px 22px;
+    border-radius: 36%;
+    background-color: #333;
+    border: 5px solid rgb(167, 165, 165);
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(33, 67, 175);
+    transition: all .4s ease-in-out;
+    font-size: 25px;
+}
+.portofolio .portfolio-nav a:hover{
+    color: #fff;
+    background-color:rgb(33, 67, 175);
+}
+
+.team-area{
+    margin-top: 30px;
+}
+.team-block{ border: 1px solid #ccc; padding: 10px; margin-top: 20px;transition:all .9s ease-in-out; margin-bottom: 120px; }
+.team-block:hover { background: rgb(33, 67, 175); }
+.team-description{ transition:all .9s ease-in-out; }
+.team-social-network a i{ 
+    transition:all .9s ease-in-out;
+    margin: 15px;
+ }
+.team-block:hover .team-social-network a i{  text-decoration: none; padding: 10px 10px 0 10px;}
+.team-block:hover .team-description,
+.team-block:hover .team-social-network a i
+{ color: #fff; }
+.team-man{ background-color: rgb(33, 67, 175); margin: -10px; padding: 5px; }
+.team-man img{
+    width: 100px; height: 100px;
+    border: 2px solid rgb(33, 67, 175);
+    border-radius: 50%;
+}
+
+/*Stats*/
+
+.stats{
+    background-image: url('../image/background.jpg');
+    background-size: cover;
+    padding-top: 150px; padding-bottom: 150px;
+}
+.stats i{ font-size: 70px; color: #fff; }
+.stats span{ color: #fff; font-size: 20px; font-weight: bold;}
+
+/*pricing*/
+.pricing{ margin-top: 50px; }
+.pricing-box{
+    border: 3px solid deepskyblue;
+    padding: 50px 0; margin: 60px 0;
+}
+
+h4.pricing-title{
+    background-color: #fff;
+    color: deepskyblue; display: inline-block;
+    padding: 7px 15px; font-size: 14px; font-weight: 700;
+    text-transform: uppercase;
+}
+h3.pricing-value{
+    font-size: 60px;
+    font-weight: 700;
+}
+h3.pricing-value sup{
+    font-size: 28px; font-weight: normal; vertical-align: super;
+   
+}
+.pricing-value{ cursor: pointer;}
+.pricing-value:hover{ 
+    transition:all .7s ease-in-out;
+    transform: rotate(360deg);
+     }
+ul.pricing-spec{
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0 60px 0;
+}
+ul.pricing-spec li p{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.pricing-btn a{
+    font-size: 16px;
+    color: deepskyblue;
+    border: 2px solid deepskyblue; padding: 10px 30px;
+}
+
+.pricing-back{
+    background-color:  deepskyblue;
+    margin: 35px 0;
+}
+.pricing-back a{ border: 2px solid #fff; color: #fff; }
+
+.cont{
+    background: rgba(0,0,0,0.5);
+    height: 350px; z-index: 0;
+}
+.contact{
+    
+    background: url("../image/background.jpg"); background-size: cover;
+    height: 350px;
+    z-index: 1000;
+}
+
+form{ padding-top: 40px; }
+.contact form .btn{ background-color: deepskyblue; font-weight: bold;}
+.map{
+    height: 550px;
+    width: 100%;
+    background-image: url('../image/syria_physical_map1.jpg');
+    background-size: 100% 550px;
+}
+
+.footer{
+    background-color: rgba(0,0,0,1);
+    padding: 37px;
+}
+
+.footer .social-icon a{
+    margin: 0 16px 20px 30px; display: inline-block;
+     text-decoration: none;
+}
+.footer .social-icon a:hover .fa{
+    border: 3px solid #fff;
+    color: #fff;
+}   
+
+.social-icon .fa{
+    border: 3px solid deepskyblue;
+    border-radius: 50%; color: deepskyblue;
+    font-size: 30px; width: 60px;
+    height: 60px; line-height: 1.8; transition:all .4s ease-in-out;
+    text-align: center;
+}
+
+.footer .copyright{
+    margin-top: 35px; color: #fff; font-weight: bold; font-size: 15px;
+}
+
+.bordernow{
+    border-bottom: 3px solid #fff;
+    width: 30%; margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

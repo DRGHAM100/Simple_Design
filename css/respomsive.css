@@ -1,0 +1,95 @@
+/*Slicknav*/
+.slicknav_menu{ display: none; }
+
+@media screen and (max-width:992px){
+    #menu {
+        display: none;
+    }
+    .slicknav_menu{ display: inline-block;
+                    position: fixed; background: transparent; z-index: 1000; right: 0;margin-top:110px;
+    }
+
+    header{
+        margin-top: 100px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .slider{ margin-top: -110px; }
+    .slider h2{ margin-top: 250px; }
+    .slicknav_btn{
+        margin: 25px 30px 0px 0px;
+        background: orangered;
+    }
+
+    .slicknav_nav{
+        background: #34495e;
+        width: 200px;
+    }
+    .slicknav_nav li{
+        margin: 0; padding: 0; height: 3em;
+        line-height: 2em;
+        width: 200px;
+        border-bottom: 1px solid #2e4155;
+        border-top: 1px solid #3d5267;
+        text-align: center;
+    }
+    .slicknav_nav li a{
+        margin: 0; font-weight: bold; transition: all .5s ease-in-out;
+    }
+    .slicknav_nav li a:hover{
+        color:orangered;
+        text-decoration: none; background: #fff
+    }
+
+}
+@media screen and (max-width:360px){
+    .slider h2{
+        margin-top: 270px;
+    }
+    .slider a{
+        display: inline-block; width: 100%;
+    }
+    header a img{
+        width: 140px; margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:380px){
+    .inner-content img{
+        width: 190px;
+    }
+
+    
+}
+
+@media screen and (max-width:285px){
+    .inner-content img{
+        width: 250px;
+    }
+}
+@media screen and (max-width:732){
+        .team-social-network{
+            text-align: center;
+            padding-bottom: 55px;
+        }
+       
+}
+@media screen and (max-width:982px){
+    
+    .stats .container .fa
+    {
+        font-size: 53px;
+        margin-top: 50px;
+    }
+    .stats span{ 
+        font-size: 17px;
+         }
+
+         
+}
+
+@media screen and (min-width: 470px) and (max-width:767px){
+    .pricing{ width: 400px; margin: 0 auto; }
+
+    
+}
